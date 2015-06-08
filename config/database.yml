@@ -13,17 +13,17 @@ default: &default
 
 development:
  <<: *default
- database: graphmywhatsapp_development
+ database: project_development
  host: localhost
 
 test:
  <<: *default
- database: graphmywhatsapp_test
+ database: project_test
  host: localhost
 
 
 production:
  <<: *default
- database: graphmywhatsapp_production
- username: graphmywhatsapp
- password: <%= ENV['GRAPHMYWHATSAPP_DATABASE_PASSWORD'] %>
+ database: project_production
+ username: project
+ password: <%= ENV['PROJECT_DATABASE_PASSWORD'] %>
