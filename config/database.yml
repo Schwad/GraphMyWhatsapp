@@ -11,14 +11,14 @@ default: &default
 
 development:
   <<: *default
-  database: projectname_development
+  database: gmwadb_development
 
 test:
   <<: *default
-  database: projectname_test
+  database: gmwadb_test
 
 production:
   <<: *default
-  database: projectname_production
+  database: gmwadb_production
   username:
   password:
