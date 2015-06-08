@@ -20,7 +20,9 @@ group :development do
   gem 'faker'
 end
 
+gem 'sqlite3'
 gem 'pg'
+gem 'taps'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
