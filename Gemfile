@@ -20,7 +20,7 @@ group :development do
   gem 'faker'
 end
 
-gem 'sqlite3'
+# gem 'sqlite3'
 gem 'pg'
 gem 'taps'
 
